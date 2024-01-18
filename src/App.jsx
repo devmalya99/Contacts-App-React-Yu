@@ -1,11 +1,17 @@
 
 import './App.css'
+import Avatar from './Components/Avatar'
 import Card from './Components/Card'
 import contacts from './Contacts'
 function App() {
   return (
     <>
       <h1 className="heading">My Contacts</h1>
+      
+      <Avatar 
+      img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+      />
+
       <Card
         name={contacts[0].name}
         img={contacts[0].imgURL}

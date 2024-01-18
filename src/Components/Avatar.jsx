@@ -6,7 +6,7 @@ import React from 'react'
   return (
     <img className="circle-img"
             src={props.img}
-          />
+    />
   )
 }
 
