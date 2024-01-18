@@ -1,5 +1,5 @@
 import React from "react";
-
+import Avatar from "./Avatar";
 const Card = (props) => {
   return (
     <div className="container">
@@ -7,9 +7,7 @@ const Card = (props) => {
       <div className="card">
         <div className="top">
           <h2 className="name">{props.name}</h2>
-          <img className="circle-img"
-            src={props.imgURL}
-          />
+          <Avatar img={props.img}/>
         </div>
         <div className="bottom">
           <p className="info">{props.phone}</p>
